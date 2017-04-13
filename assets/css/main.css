@@ -1,0 +1,98 @@
+hr {
+    clear: both;
+    max-width: 75rem;
+    height: 0;
+    margin: 0 0.1rem 0.5rem 0.1rem;
+    border-color: #7d97ad;
+    border-style: solid;
+    border-width: 0 0 3px 0;
+}
+
+.top-bar {
+    padding: 0 0.5rem;
+    background: white;
+}
+
+.logo {
+    width: 7em;
+    height: 6em;
+}
+
+.name {
+    text-transform: uppercase;
+}
+
+.overlay-container {
+    position: relative;
+}
+
+.overlay-container .overlay {
+    position: absolute;
+    top: -150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.4rem;
+    text-align: center;
+    font: 0/0 a;
+}
+
+.overlay-container .overlay:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.overlay-container .overlay .intro-content {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+
+.lead {
+    padding: 1em 0 0 0;
+}
+
+@media screen and (max-width: 640px) {
+    .logo {
+        width: 5.0em;
+        height: 4.0em;
+    }
+    .top-bar {
+        padding-bottom: 0;
+    }
+    .name {
+        font-size: 1.6em;
+    }
+    .title {
+        font-size: 1.0em;
+    }
+}
+
+.soc {
+    display: block;
+    font-size: 0;
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+.soc li {
+    display: inline-block;
+}
+
+.soc a,
+.soc svg {
+    display: block;
+}
+
+.soc a {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.soc svg {
+    height: 100%;
+    width: 100%;
+}
