@@ -1,16 +1,12 @@
-hr {
-    clear: both;
-    max-width: 75rem;
-    height: 0;
-    margin: 0 0.1rem 0.5rem 0.1rem;
-    border-color: #7d97ad;
-    border-style: solid;
-    border-width: 0 0 3px 0;
+.btm-border{
+    border-bottom: 4px solid #7d97ad;
+    margin-bottom: 5px;
 }
 
 .top-bar {
     padding: 0 0.5rem;
     background: white;
+    padding-bottom: 0.15rem;
 }
 
 .logo {
@@ -55,19 +51,24 @@ hr {
 }
 
 @media screen and (max-width: 640px) {
+
     .logo {
         width: 5.0em;
         height: 4.0em;
     }
+
     .top-bar {
         padding-bottom: 0;
     }
+
     .name {
         font-size: 1.6em;
     }
+
     .title {
         font-size: 1.0em;
     }
+
 }
 
 .soc {
