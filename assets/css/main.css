@@ -34,7 +34,7 @@ hr {
     right: 0;
     padding: 0.4rem;
     text-align: center;
-    font: 0/0 a;
+    font-size: 1px;
 }
 
 .overlay-container .overlay:before {
